@@ -83,8 +83,8 @@ contract SimpleBank {
     function deposit() public payable returns (uint) {
         /* Add the amount to the user's balance, call the event associated with a deposit,
           then return the balance of the user */
-        if (!enrolled[msg.sender])
-            enroll();
+          
+        require(enrolled[msg.sender] == true, "user must be enrolled");
 
         balances[msg.sender] += msg.value;
 
