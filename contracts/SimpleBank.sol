@@ -1,7 +1,7 @@
 /*
     This exercise has been updated to use Solidity version 0.6.12
     Breaking changes from 0.5 to 0.6 can be found here: 
-    https://solidity.readthedocs.io/en/v0.6.12/060-breaking-changes.html
+    https://solidity.readthedocs.io/en/v0.6.12/060-breaking-changes.html test
 */
 
 pragma solidity ^0.5.0;
